@@ -197,13 +197,17 @@ span {
   transition: transform 0.4s ease;
 }
 
-.box-img:hover {
+/* .box-img:hover {
   transform: scale(1.15);
-}
+} */
 
 /* CONTENT */
 .box-content {
   margin: 0 10px;
+}
+
+.box-content:hover{
+  transform: scale(1.10);
 }
 
 .box-content p {
