@@ -35,12 +35,17 @@ amazon.css         # Main CSS file
 README.md          # Project documentation
 ```
 
-Screenshot
+## Preview
 
 <img width="944" height="400" alt="image" src="https://github.com/user-attachments/assets/e0042422-b727-4bf8-9df6-ae56aa50a19d" />
 
-## 🤝 Contributing
-Contributions are always welcome! Feel free to fork this repository and submit pull requests.
+## 🎯 What I Learned
+- Practiced core **HTML5** semantic elements and structural layout.
+- Mastered advanced **CSS Flexbox & CSS Grid** for responsive web design.
+- Implemented icon integration using **FontAwesome**.
+- Improved UI/UX cloning techniques to replicate real-world production websites like Amazon.
 
-## 📫 Contact
-If you have any questions or suggestions, feel free to reach out to me!
+## 🔮 Future Enhancements
+- [ ] Add interactive search functionality using JavaScript.
+- [ ] Implement a fully functional Shopping Cart state (Add/Remove items).
+- [ ] Make the navigation dropdown menus interactive.
