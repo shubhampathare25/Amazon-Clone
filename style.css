@@ -181,20 +181,26 @@ span {
 
 /* FIXED MAIN ISSUE */
 .box {
-  width: 23%;
+  height: 300px;
+  width: 25%;
   background-color: white;
-  padding: 20px 0 15px 0;
-  margin-top: 15px;
-  overflow: hidden;
+  padding: 20px 0px 25px 0;
+  margin-top: 2rem;
+  transition: all 0.3s ease-in-out 0.1s;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.box:hover {
+  height: 320px;
+  width: 27%;
 }
 
 /* IMAGE */
 .box-img {
-  height: 270px;
+  height: 200px;
   background-size: cover;
-  background-position: center;
-  margin: 1rem 0;
-  transition: transform 0.4s ease;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* .box-img:hover {
@@ -203,14 +209,11 @@ span {
 
 /* CONTENT */
 .box-content {
-  margin: 0 10px;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
-
-.box-content:hover{
-  transform: scale(1.10);
-}
-
-.box-content p {
+.box-content a {
+  text-decoration: none;
   color: #007185;
 }
 
@@ -227,6 +230,7 @@ span {
   justify-content: center;
   align-items: center;
   font-size: 0.85rem;
+  cursor: pointer;
 }
 
 .foot-panel2 {
@@ -272,4 +276,8 @@ ul a {
 
 .copyright {
   padding-top: 5px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
